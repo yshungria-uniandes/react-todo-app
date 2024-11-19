@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Formulario from './components/Formulario'
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Formulario</h1>
+      <Formulario />
+    </div>
   )
 }
 
